@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+*{
+	font-family: 'Karla', sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+
+	html{
+	font-size: 62.5%;
+}
+
+
+body{
+	background-color: rgba(239,240,234,1);
+	overflow-x: hidden;
+
+}
+
+/*Comienza index*/
+
+
+.inicio{
+	background-image: url(../img-entrega1/oficina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+ }
+
+ 
+ .inicio h2{
+	text-align: center;
+	font-size: 2.7rem;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+	color:rgba(76,85,109,1);
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+}
+
+
+.inicio ul li{
+	list-style-type: none;
+	font-size: 1.5rem;
+	width: 100%;
+	text-align:  center;
+	font-weight: 500;
+	padding-top: .5rem;
+	opacity: .6;
+}
+
+
+.inicio div ul li a{
+	text-decoration: none;
+	color:#485956;
+	width: 100%;
+	font-size: 1.9rem;
+}
+
+.inicio div ul li a:hover{
+	opacity: 1;
+	font-weight: 500;
+ 	color:rgba(154,160,136,1);
+}
+
+
+/*termina index*/
+
+
+/*empieza nav*/
+
+.navbar{
+	background-color: rgba(214,209,167,1);
+}
+
+
+
+.navbar ul{
+	padding-right: : 4rem;
+}
+
+.navbar ul li{
+ 	list-style-type: none;
+ 	font-size:2rem;
+ 	padding: .3rem 1rem;
+}
+
+.navbar ul li a{
+ 	text-decoration: none;
+ 	color: #485956;
+ 	font-weight: 300;
+}
+
+.navbar ul li a:hover{
+ 	font-weight: 700;
+ 	color:#c13a4d
+ }
+
+
+
+ .navbar img{
+ 	width: 25rem;
+ 	margin:auto 0;
+ 	padding: 2rem 1rem;
+}
+
+.navbar-toggler{
+	color: #485956;
+	border-color: #485956;
+}
+
+.navbar-toggler-icon{
+	background-image: url(file:///C:/Users/Usuario1/Documents/Repo-Proyecto-Suaste/img-entrega1/boton-burguer.svg);
+	width:27px;
+	border-color:#485956;
+}
+
+/*termina nav*/
+
+/*empeiza header*/
+
+.header img{
+	display: none;
+}
+
+@media (min-width: 768px){
+	.header img{
+		height: 50rem;
+		width: 100%;
+		display: block;
+	}
+}
+
+/*termina header*/
+
+
+/*empeiza quien soy*/
+
+.quienSoy h1{
+	font-size: 2.5rem;
+	color: #485956;
+	font-weight: 700;
+}
+
+.quienSoy p{
+	font-size: 1.7rem;
+	text-align: center;
+	line-height: 3rem;
+}
+
+@media (min-width: 1200px){
+ 	.quienSoy p{
+ 		width: 75%;
+ 		margin: 0 auto;
+ 	}
+
+}
+
+
+
+/*termina quien soy*/
+
+/*empieza conjunto de ramas*/
+
+.bg-card{
+	background-color: rgba(239,240,234,1);
+}
+
+
+.sinBordes{
+	border:none;
+}
+
+.conjuntoDeRamas h2 {
+	text-align: center;
+	font-size: 2.2rem;
+	margin:auto 0;
+	padding:1rem 0;
+	color:#485956;
+	font-weight: 700;
+		
+}
+
+.conjuntoDeRamas p {
+	text-align: center;
+	font-size: 1.7rem;
+	margin:0 auto;
+	margin-bottom: 3rem;
+	width: 100%;
+	line-height: 3rem;
+}
+
+.conjuntoDeRamas img{
+	width: 20rem;
+ }
+
+ @media (min-width: 768px){
+ 	.mision{
+ 		margin:0 auto;
+ 	}
+
+}
+
+ /*termina conjunto de ramas*/
+
+ /*empieza footer*/
+
+ .footer{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+	height: auto;
+	width: 100%;
+	background-color: rgba(143,152,178,1);
+}
+
+
+.footer img {
+	width: 20rem;
+	padding-bottom: 3rem;
+}
+
+/*termina footer*/
+
+
+/*Empieza servicios*/
+
+.servicios h1{
+	font-size: 2.5rem;
+	color: rgba(178,168,81,1);
+	margin:1rem 0;
+	font-weight: 700;
+}
+
+.servicios h2{
+	margin-bottom:  1rem;
+	font-size: 2.6rem;
+	color: #485956;
+	font-weight: 700;
+
+}
+
+.servicios ul{
+	width: 90%;
+	margin-left: 1rem;
+}
+
+
+@media (min-width: 992px){
+ 	.servicios ul{
+ 		width: 100%;
+ 	}
+
+}
+
+.servicios ul li{
+	font-size: 1.7rem;	
+	line-height: 2.2rem;
+	padding-bottom:1rem;
+	list-style-image: url(../img-entrega1/item20x20.jpg);
+}
+
+@media (min-width: 911px){
+ 	.servicios ul li{
+ 		margin-top: 1.7rem;
+ 	}
+
+}
+
+.img-servicios{
+	display: none;
+}
+
+@media (min-width: 992px){
+ 	.img-servicios{
+ 		display: block;
+ 		width: 40%;
+ 	}
+
+}
+
+/*termina servicios*/
+
+/*empieza donde encontrarme*/
+
+.ubicacion{
+	margin:4rem 0;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.ubicacion div{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+	background-color: rgba(219,201,152,1);
+ 	width: 90%;
+ 	height: auto;
+}
+
+
+.ubicacion h1{
+	font-size:2rem; 
+	padding: 2rem 0;
+	color: #485956;
+	font-weight: 700;
+
+}
+
+.ubicacion iframe{
+	width: 80%;
+	height:20%;
+}
+
+@media (min-width: 320px){
+	.ubicacion div{
+		height: 40rem;
+	}
+
+	.ubicacion iframe{
+		height: 70%
+	}
+
+
+}
+
+@media (min-width: 1024px){
+	.ubicacion div{
+		height: 50rem;
+	}
+
+	.ubicacion iframe{
+		height: 70%
+	}
+}
+
+/*Termina donde encontrarme*/
+
+/*Empieza Contacto*/
+
+.contacto{
+	margin-top: 1.5rem;
+
+}
+
+
+.contacto h1{
+	font-size: 2.5rem;
+	color: #485956;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+.contacto form{
+    margin:1rem auto;
+    width: 90%;
+}
+
+.contacto form textarea{
+	resize: none;
+	height:10rem;
+}
+
+.contacto form label{
+	font-size: 1.7rem;
+	padding:.3rem 0;
+}
+
+.contacto form input{
+	font-size: 1.7rem;
+	height: 2.5rem;
+}
+
+.contacto form textarea{
+	font-size: 1.7rem;
+}
+
+.btn{
+	font-size: 1.7rem;
+	background-color: rgba(72,101,115,1);
+	color: rgba(158,149,123,1)
+}
+
+@media (min-width: 576px){
+	.btnCancelar{
+		margin:0 3rem;
+	}
+
+}
+
+@media (min-width: 768px){
+	.btnCancelar{
+		margin:0 5rem;
+	}
+
+}
+
+.contacto__general{
+	margin:1.5rem auto;
+	}
+
+.contacto__general h2{
+	font-size: 2.5rem;
+	color: #485956;
+	font-weight: 700;
+
+}
+
+.contacto__general ul{
+	width: 80%;
+}
+
+@media (min-width: 520px){
+	.contacto__general ul{
+		width: 50%;
+	}
+
+}
+
+.contacto__general ul li{
+	font-size: 1.7rem;
+	padding: .5rem 0;
+}
+
+.home{
+	list-style-image: url(../img-entrega1/home.png);
+}
+
+.tel{
+	list-style-image:url(../img-entrega1/telephone.png);
+}
+
+.email{
+	list-style-image: url(../img-entrega1/mail.png);
+}
+
+.redSocial{
+	list-style-image: url(../img-entrega1/facebook.png);
+}
+
+.contacto__general img{
+	width: 4.5rem;
+}
+
+@media (min-width: 992px){
+	.contacto{
+		margin-bottom: 4rem;
+	}
+
+}
+
+@media (min-width: 1300px){
+	.contacto{
+		margin-bottom: 12rem;
+	}
+
+}
+
+
+.bordesImg{
+	border-style: solid;
+	color: rgba(255,230,155,1)
+}

@@ -119,7 +119,7 @@ body{
 }
 
 .navbar-toggler-icon{
-	background-image: url(file:///C:/Users/Usuario1/Documents/Repo-Proyecto-Suaste/img-entrega1/boton-burguer.svg);
+	background-image: url(../img-entrega1/boton-burguer.svg);
 	width:27px;
 	border-color:#485956;
 }
@@ -252,7 +252,7 @@ body{
 
 .servicios ul{
 	width: 90%;
-	margin-left: 1rem;
+	margin-left: 2rem;
 }
 
 
@@ -267,7 +267,7 @@ body{
 	font-size: 1.7rem;	
 	line-height: 2.2rem;
 	padding-bottom:1rem;
-	list-style-image: url(../img-entrega1/item20x20.jpg);
+	list-style-image: url(../img-entrega1/item.jpg);
 }
 
 @media (min-width: 911px){
